@@ -32,7 +32,6 @@ public class PraktikumArray_23 {
             System.out.print("Masukkan nilai Angka untuk MK " + matkul[i] + ": ");
             nilaiAngka[i] = input.nextDouble();
 
-            // Konversi nilai angka ke nilai huruf
             if (nilaiAngka[i] > 80 && nilaiAngka[i] <= 100) {
                 nilaiHuruf[i] = "A";
                 bobotNilai[i] = 4.0;

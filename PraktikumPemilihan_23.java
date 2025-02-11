@@ -34,10 +34,8 @@ public class PraktikumPemilihan_23 {
         } while (nilaiUAS < 0 || nilaiUAS > 100);
         System.out.println("==============================");
 
-        // Hitung nilai akhir
         nilaiAkhir = (0.2 * nilaiTugas) + (0.2 * nilaiKuis) + (0.3 * nilaiUTS) + (0.4 * nilaiUAS);
 
-        // Tentukan nilai huruf
         if (nilaiAkhir > 80 && nilaiAkhir <= 100) {
             nilaiHuruf = "A";
         } else if (nilaiAkhir > 73 && nilaiAkhir <= 80) {
@@ -54,14 +52,12 @@ public class PraktikumPemilihan_23 {
             nilaiHuruf = "E";
         }
 
-        // Tentukan status LULUS/TIDAK LULUS
         if (nilaiHuruf.equals("A") || nilaiHuruf.equals("B+") || nilaiHuruf.equals("B") || nilaiHuruf.equals("C+") || nilaiHuruf.equals("C")) {
             keterangan = "LULUS";
         } else {
             keterangan = "TIDAK LULUS";
         }
 
-        // Output hasil
         System.out.println("==============================");
         System.out.println("Nilai Akhir: " + nilaiAkhir);
         System.out.println("Nilai Huruf: " + nilaiHuruf);
