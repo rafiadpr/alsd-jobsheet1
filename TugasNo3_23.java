@@ -1,8 +1,5 @@
-
 import java.util.Scanner;
-
 public class TugasNo3_23 {
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -85,7 +82,5 @@ public class TugasNo3_23 {
                 System.out.println("Pilihan tidak valid, coba lagi.");
             }
         }
-
-        input.close();
     }
 }
